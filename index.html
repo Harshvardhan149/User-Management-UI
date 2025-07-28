@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><u>User's Details</u></h1>
+
+    <!-- Create New User Button -->
+    <button id="createUserButton" class="btn-create">Create New User</button>
+
+    <!-- User List Table -->
+    <table id="userTable" align="center">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="userTableBody">
+            <!-- Dynamically populated user rows -->
+        </tbody>
+    </table>
+
+    <!-- Pagination Controls -->
+    <div id="pagination" class="center"></div>
+
+    <!-- User Form Modal (Placeholder for Create/Edit Forms) -->
+    <div id="userFormModal" class="modal">
+        <!-- Form content will be dynamically added here -->
+    </div>
+
+    <script src="script.js"></script>
+
+    <section class="note">
+        <h4>PLEASE READ:</h4>
+        <p>
+            API methods (PUT, POST, PATCH, DELETE) require an Access Token via Authorization Header (Bearer Token).
+            Currently, only GET requests are implemented for fetching user data. Without valid token permissions, 
+            CRUD operations (Create, Edit, Delete) cannot be executed.
+        </p>
+    </section>
+</body>
+</html>
