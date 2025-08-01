@@ -13,7 +13,7 @@ A dynamic **User Management Dashboard** built with **HTML, CSS, and JavaScript**
 ---
 
 ## 📸 Project Preview
-![User Management Dashboard Screenshot](users details.png)
+![User Management Dashboard Screenshot](users-details.png)
 
 ---
 
